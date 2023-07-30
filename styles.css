@@ -109,3 +109,86 @@ button {
     color: white;
     text-shadow: -5px 5px 10px gray;
 }
+
+.cuadroPrincipalConoce{
+    display: flex;
+    justify-content: center;
+    align-items:
+}
+.textoContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_Foto{
+    /* display: flex; */
+    width: 300px;
+    height: 500px;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-right: 50px;
+    object-fit: contain;
+    padding: 0px;
+}
+
+.inicioTitulo1_Conoce{
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+    margin-right: 400px;
+    font-size: 55px;
+    font-family: Helvetica;
+    font-style: italic;
+    color: white;
+    text-shadow: -5px 5px 10px gray;
+}
+.textoMensaje{
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+    margin-right: 400px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: italic;
+    color: lightskyblue
+    text-shadow: -5px 5px 10px gray;
+}
+
+.Pregunta{
+    display: flex;
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: Helvetica;
+    color: white;
+}
+
+.Respuesta{
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: italic;
+    color: rgb(49, 158, 194);
+}
+
+.lista_Habilidades{
+    display: list-item;
+    position: relative;
+    margin-right: 400px;
+    margin-bottom: 0px;
+    list-style: inside;
+    list-style-position:outside;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: italic;
+    color: rgb(49, 158, 194);
+}
+
+.item_Habilidades{
+    padding: 2px;
+}
