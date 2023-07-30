@@ -1,0 +1,111 @@
+
+.cuadroPrincipalInicio{
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    width: 1904px;
+    height: 1078px;
+} 
+
+.fondoInicio{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+
+
+}
+
+.cuadroMenuInicio{
+    display: flex;
+    width: 1100px;
+    height: 60px;
+    background: linear-gradient(#2980b9, 80%, black);
+    position: relative;
+    margin: 0 0 0 auto;
+}
+
+.menuInicio{
+    display: flex;
+    width: 1100px;
+    height: 40px;
+    position: relative;
+    margin: 0 0 0 auto;
+}
+
+.menuInicio, ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    align-items: center;
+
+}
+
+li {
+    flex-grow: 50;
+    padding: 20px;
+
+}
+
+button {
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+
+.cuadroSocialMedia{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 20px 30px 0 auto;
+}
+
+.img_SocialMedia{
+    display: flex;
+    width: 35px;
+    height: 35px;
+
+}
+
+.cuadroTitulosInicio{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inicioTitulo1{
+    display: flex;
+    margin-top: 200px;
+    position: relative;
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium';
+    color: white;
+    text-shadow: -5px 5px 10px gray;
+}
+
+.inicioTitulo2{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    font-size: 55px;
+    font-family: 'Amasis MT W01 italic', Helvetica;
+    font-style: italic;
+    color: black;
+    text-shadow: -5px 5px 10px gray;
+}
+
+.inicioTitulo3{
+    display: flex;
+    position: relative;
+    padding: 30px;
+    font-size: 50px;
+    font-family: Helvetica;
+    color: white;
+    text-shadow: -5px 5px 10px gray;
+}
