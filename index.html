@@ -7,18 +7,16 @@
     <title>Portafolio Nancy Escobar</title>
 </head>
 <body>
-    <!-- Pagina Inicio -->
-    <div class="cuadroPrincipalInicio">
-        <img src="Fondo Azul.png" alt="" class="fondoInicio">
-        <div style="position: relative; left: 0; top: 0;" class="cuadroMenuInicio">
-            <h1 class="menuInicio">
-                    <ul>
-                        <li><button onclick="inicio()">Inicio</button></li>
-                        <li><button onclick="conoce()">Conoce sobre mi</button></li>
-                        <li><button onclick="proyectos()">Revisa mis proyectos</button></li>
-                        <li><button onclick="contactame()">Contáctame</button></li>
-                    </ul>
-            </h1>
+    <!-- Menú Inicio -->
+    <section id="inicio">
+        <div class="cuadroMenuInicio">
+            <ul id="links">
+                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                <li><a href="#conocesobremi" onclick="seleccionar(this)">Conoce sobre mi</a></li>
+                <li><a href="#proyectos" onclick="seleccionar(this)">Revisa mis proyectos</a></li>
+                <li><a href="#contactame" onclick="seleccionar(this)">Contáctame</a></li>
+            </ul>
+                
             <div class="cuadroSocialMedia">
                 <img src="icono email.png" alt="" class="img_SocialMedia">
                 <img src="icono whatsapp.png" alt="" class="img_SocialMedia">
@@ -26,31 +24,19 @@
                 <img src="icono LinkedIn.png" alt="" class="img_SocialMedia">
             </div>
         </div>
-        <div class="cuadroTitulosInicio">
-            <h1 class="inicioTitulo1">Portafolio - Desarrollador Web</h1>
-            <h1 class="inicioTitulo2">Nancy Jeanneth Escobar</h1>
-            <h1 class="inicioTitulo3">Bienvenido!!!</h1>
+        
+        <!-- Bienvenida -->
+        <div class="cuadroBienvenida">
+            <div class="cuadroTitulosInicio">
+                <h1 class="inicioTitulo1">Portafolio - Desarrollador Web</h1>
+                <h1 class="inicioTitulo2">Nancy Jeanneth Escobar</h1>
+                <h1 class="inicioTitulo3">Bienvenido!!!</h1>
+            </div>
         </div>
-    </div>
+    </section>
+    
     <!-- Pagina Conoce sobre Mi -->
-    <div style="position: relative; left: 0; top: 0;" class="cuadroPrincipalInicio">
-        <img src="Fondo Negro.png" alt="" class="fondoInicio">
-        <div style="position: relative; left: 0; top: 0;" class="cuadroMenuInicio">
-            <h1 class="menuInicio">
-                    <ul>
-                        <li><button onclick="inicio()">Inicio</button></li>
-                        <li><button onclick="conoce()">Conoce sobre mi</button></li>
-                        <li><button onclick="proyectos()">Revisa mis proyectos</button></li>
-                        <li><button onclick="contactame()">Contáctame</button></li>
-                    </ul>
-            </h1>
-            <div class="cuadroSocialMedia">
-                <img src="icono email.png" alt="" class="img_SocialMedia">
-                <img src="icono whatsapp.png" alt="" class="img_SocialMedia">
-                <img src="icono twitter.png" alt="" class="img_SocialMedia">
-                <img src="icono LinkedIn.png" alt="" class="img_SocialMedia">
-            </div>
-        </div>
+    <section id="conocesobremi">
         <div class="cuadroPrincipalConoce">
             <img src="FotoNancy.png" alt="" class="img_Foto">
             <div class="textoContainer">
@@ -70,9 +56,24 @@
                     <li class="item_Habilidades">Desarrollo Web de aplicaciones orientadas a las necesidades de los negocios</li>
                 </ul>
             </div>
-            <!-- <h1 class="textoMensaje">“Me siento en la capacidad de asumir nuevos retos en donde pueda aportar mi conocimiento y experiencia en busca de mejores resultados para La Empresa. “
-            </h1> -->
         </div>
-    </div>
+    </section>
+
+     <!-- Pagina Conoce sobre Mi -->
+    <section id="proyectos">
+        <div class="cuadroPrincipalProyectos">
+            <div class="Proyectos">
+                <div class="Proyecto_Item"> <img src="Proyecto 1 - Img - Media Query.png" alt=""></div>
+                <div class="Proyecto_Item"> <img src="Proyecto 2 - Img - Primera Pagina Web.png" alt=""></div>
+                <div class="Proyecto_Item"> <img src="Proyecto 3 - Img.png" alt=""></div>
+                <div class="Proyecto_Item"> <img src="Proyecto 4 - Img - Tablas.png" alt=""></div>
+                <div class="Proyecto_Item"> <img src="Proyecto 5 - Img - Formularios.png" alt=""></div>
+                <div class="Proyecto_Item"> <img src="Proyecto 6 - Img - JSON.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+
 </body>
 </html>

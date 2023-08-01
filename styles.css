@@ -1,63 +1,48 @@
 
-.cuadroPrincipalInicio{
-    position: relative;
-    margin-left: 0;
-    margin-top: 0;
-    width: 1904px;
-    height: 1078px;
-} 
+/* Sección Cuadro Inicio */
 
-.fondoInicio{
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: auto;
-
-
+#inicio{
+    background: url("Fondo Azul.png");
+    background-size: cover;
+    background-position: center center;
 }
 
 .cuadroMenuInicio{
-    display: flex;
-    width: 1100px;
+    position: fixed;
+    width: 1080px;
     height: 60px;
-    background: linear-gradient(#2980b9, 80%, black);
-    position: relative;
-    margin: 0 0 0 auto;
+    margin: auto;
+    background: linear-gradient(#2980b9, 70%, black);
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 10px 20px;
 }
 
-.menuInicio{
-    display: flex;
-    width: 1100px;
-    height: 40px;
-    position: relative;
-    margin: 0 0 0 auto;
-}
-
-.menuInicio, ul {
+#inicio .cuadroMenuInicio, ul {
     display: flex;
     list-style: none;
-    position: absolute;
     align-items: center;
-
+    width: 80%;
 }
 
-li {
-    flex-grow: 50;
-    padding: 20px;
-
-}
-
-button {
+#inicio .cuadroMenuInicio, li {
     width: 100%;
+}
+
+#inicio a {
     border: none;
-    margin-top: 20px;
     background-color: transparent;
     color: white;
     font-size: 25px;
-    font-family: sans-serif;
-
+    font-family: sans-serif; 
+    align-items: center;
+    text-decoration: none;
+    
 }
 
+#inicio .contenido header .contenido-header .seleccionado {
+    color: #ff5080;
+}
 .cuadroSocialMedia{
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +54,24 @@ button {
     display: flex;
     width: 35px;
     height: 35px;
+    margin: 5px;
 
+}
+
+/* Sección Bienvenida */
+
+.cuadroBienvenida{
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    height: 900px;
+} 
+
+.fondoBienvenida{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
 }
 
 .cuadroTitulosInicio{
@@ -81,7 +83,7 @@ button {
 
 .inicioTitulo1{
     display: flex;
-    margin-top: 200px;
+    margin-top: 300px;
     position: relative;
     font-size: 70px;
     font-family:'Franklin Gothic Medium';
@@ -110,10 +112,22 @@ button {
     text-shadow: -5px 5px 10px gray;
 }
 
+/* Sección Conoce Sobre mi */
+
+#conocesobremi{
+    background: url("Fondo\ Negro.png");
+    background-size: cover;
+    background-position: center center;
+}
+
 .cuadroPrincipalConoce{
     display: flex;
     justify-content: center;
-    align-items:
+    align-items:center;
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    height: 900px;
 }
 .textoContainer{
     display: flex;
@@ -191,4 +205,46 @@ button {
 
 .item_Habilidades{
     padding: 2px;
+}
+
+/* Sección Proyectos */
+
+#proyectos{
+    background: url("Fondo\ Gris.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.cuadroPrincipalProyectos{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    height: 900px;
+}
+
+.Proyectos {
+    width: 1000px;
+    height: 500px;
+    border: 5px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    gap: 30px 20px;
+}
+
+.Proyecto_Item{
+    width: 330px;
+    height: 200px;
+    border: 2px solid blue;
+}
+
+.Proyecto_Item img{
+    width: 100%;
 }
