@@ -2,7 +2,7 @@
 /* Sección Cuadro Inicio */
 
 #inicio{
-    background: url("Fondo Azul.png");
+    background: url("Imagenes/Fondo\ Azul.png");
     background-size: cover;
     background-position: center center;
 }
@@ -13,9 +13,8 @@
     height: 60px;
     margin: auto;
     background: linear-gradient(#2980b9, 70%, black);
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    padding: 10px 20px;
+    padding: 10px 20px; */
+    z-index: 1;
 }
 
 #inicio .cuadroMenuInicio, ul {
@@ -23,6 +22,7 @@
     list-style: none;
     align-items: center;
     width: 80%;
+    z-index: 2;
 }
 
 #inicio .cuadroMenuInicio, li {
@@ -67,13 +67,6 @@
     height: 900px;
 } 
 
-.fondoBienvenida{
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: auto;
-}
-
 .cuadroTitulosInicio{
     display:flex;
     justify-content: center;
@@ -115,7 +108,7 @@
 /* Sección Conoce Sobre mi */
 
 #conocesobremi{
-    background: url("Fondo\ Negro.png");
+    background: url("Imagenes/Fondo\ Negro.png");
     background-size: cover;
     background-position: center center;
 }
@@ -210,7 +203,7 @@
 /* Sección Proyectos */
 
 #proyectos{
-    background: url("Fondo\ Gris.png");
+    background: url("Imagenes/Fondo\ Gris.png");
     background-size: cover;
     background-position: center center;
 }
@@ -226,25 +219,64 @@
 }
 
 .Proyectos {
-    width: 1000px;
+    /* width: 1000px;
     height: 500px;
-    border: 5px solid black;
+    border: 5px solid black; */
     padding: 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     align-content: center;
     gap: 30px 20px;
 }
 
 .Proyecto_Item{
     width: 330px;
-    height: 200px;
-    border: 2px solid blue;
+    height: 300px;
+    border: 5px solid lightgreen;
 }
 
 .Proyecto_Item img{
     width: 100%;
+}
+
+#proyectos a {
+    border: none;
+    background-color: transparent;
+    color: blue;
+    font-size: 17px;
+    font-family: sans-serif; 
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.ProyectosTitulo{
+    display: flex;
+    margin-left: 300px;
+    position: relative;
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium';
+    color: blue;
+    text-shadow: -5px 5px 10px gray;
+}
+
+
+#contactame{
+    background: url("Imagenes/Fondo\ Negro.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.cuadroPrincipalContactame{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    height: 900px;
+
 }

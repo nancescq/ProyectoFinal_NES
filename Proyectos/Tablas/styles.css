@@ -1,0 +1,28 @@
+table, tr, th, td {
+    border: 2px solid hsl(0, 0%, 3%);
+    border-collapse: collapse;
+}
+
+table {
+    background-color: rgb(218, 196, 196);
+}
+
+th{
+    width: 100px;
+    background-color: rgb(128, 128, 90);
+}
+
+tr{
+    height: 40px;
+    /* correr x pixeles a la izquierda*/
+    padding-left: 5px;
+}
+
+td{
+    /* centrar texto*/
+    text-align: center;
+}
+
+.hora {
+    font-weight: bold;
+}

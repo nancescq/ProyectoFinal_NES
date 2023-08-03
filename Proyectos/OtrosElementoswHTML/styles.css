@@ -1,0 +1,12 @@
+.miSpan {
+    color: brown;
+}
+
+.contenedor {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 240, 240);
+    border-radius: 10px;
+    border: 10px solid blue;
+   
+}
