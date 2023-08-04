@@ -58,7 +58,8 @@
     position: relative;
     margin-left: 0;
     margin-top: 0;
-    height: 900px;
+    padding: 100px;
+    /* height: 900px; */
 } 
 
 .cuadroTitulosInicio{
@@ -70,9 +71,9 @@
 
 .inicioTitulo1{
     display: flex;
-    margin-top: 300px;
+    margin-top: 100px;
     position: relative;
-    font-size: 70px;
+    font-size: 60px;
     font-family:'Franklin Gothic Medium';
     color: white;
     text-shadow: -5px 5px 10px gray;
@@ -82,7 +83,7 @@
     display: flex;
     position: relative;
     margin-top: 20px;
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Amasis MT W01 italic', Helvetica;
     font-style: italic;
     color: black;
@@ -93,7 +94,7 @@
     display: flex;
     position: relative;
     padding: 30px;
-    font-size: 50px;
+    font-size: 40px;
     font-family: Helvetica;
     color: white;
     text-shadow: -5px 5px 10px gray;
@@ -111,7 +112,8 @@
     position: relative;
     margin-left: 0;
     margin-top: 0;
-    height: 900px;
+    padding: 20px;
+    /* height: 900px; */
 
 }
 
@@ -124,6 +126,7 @@
 .textoContainer{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .img_Foto{
@@ -143,21 +146,10 @@
     position: relative;
     margin-top: 90px;
     margin-right: 400px;
-    font-size: 55px;
+    font-size: 40px;
     font-family: Helvetica;
     font-style: italic;
     color: white;
-    text-shadow: -5px 5px 10px gray;
-}
-.textoMensaje{
-    display: flex;
-    position: relative;
-    margin-top: 60px;
-    margin-right: 400px;
-    font-size: 20px;
-    font-family: Helvetica;
-    font-style: italic;
-    color: lightskyblue
     text-shadow: -5px 5px 10px gray;
 }
 
@@ -165,7 +157,7 @@
     display: flex;
     position: relative;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Helvetica;
     color: white;
 }
@@ -176,7 +168,7 @@
     margin-left: 30px;
     margin-right: 400px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Helvetica;
     font-style: italic;
     color: rgb(49, 158, 194);
@@ -190,7 +182,7 @@
     margin-bottom: 0px;
     list-style: inside;
     list-style-position:outside;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Helvetica;
     font-style: italic;
     color: rgb(49, 158, 194);
@@ -215,7 +207,8 @@
     position: relative;
     margin-left: 0;
     margin-top: 0;
-    height: 900px;
+    padding: 50px;
+    /* height: 900px; */
 }
 
 .Proyectos {
@@ -278,7 +271,8 @@
     position: relative;
     margin-left: 0;
     margin-top: 0;
-    height: 900px;
+    padding: 50px;
+    /* height: 900px; */
 
 }
 
@@ -294,10 +288,6 @@
 .contactoForm{
     display: flex;
     justify-content: space-between;
-}
-
-.contactoCamposDos{
-
 }
 
 .contactoFilaUno {
