@@ -11,16 +11,24 @@
     <section id="inicio">
         <div class="cuadroMenuInicio">
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#conocesobremi">Conoce sobre mi</a></li>
-                <li><a href="#proyectos">Revisa mis proyectos</a></li>
-                <li><a href="#contactame">Contáctame</a></li>
+                <button name="redirect" class="button" onClick="redirect('#inicio')">
+                    Inicio
+                </button>
+                <button name="redirect" class="button" onClick="redirect('#conocesobremi')">
+                    Conoce sobre mi
+                </button>
+                <button name="redirect" class="button" onClick="redirect('#proyectos')">
+                    Revisa mis proyectos
+                </button>
+                <button name="redirect" class="button" onClick="redirect('#contactame')">
+                    Contáctame
+                </button>
             </ul>
             <div class="cuadroSocialMedia">
                 <img src="Imagenes/icono email.png" alt="" class="img_SocialMedia">
                 <img src="Imagenes/icono whatsapp.png" alt="" class="img_SocialMedia">
                 <img src="Imagenes/icono twitter.png" alt="" class="img_SocialMedia">
-                <img src="Imagenes/icono LinkedIn.png" alt="" class="img_SocialMedia">
+                <img src="Imagenes/icono LinkedIn.png" alt="" class="img_SocialMedia"> <i></i>
             </div> 
         </div>
         
@@ -37,23 +45,24 @@
     <!-- Pagina Conoce sobre Mi -->
     <section id="conocesobremi">
         <div class="cuadroPrincipalConoce">
-            <img src="Imagenes/FotoNancy.png" alt="" class="img_Foto">
-            <div class="textoContainer">
-                <h2 class="inicioTitulo1_Conoce">Nancy Jeanneth Escobar</h1>
-                <p class="Pregunta">Quien soy?</p>
-                <p class="Respuesta">Mujer orgullosamente colombiana nacida en Bogotá, madre de 2 hermosos hijos y excelente profesional.</p>
-                <p class="Pregunta">Que estudie?</p>
-                <p class="Respuesta">Ingeniería de Sistemas con Especialización de Sistemas de Información en la Organización y Master of Commerce with a major in e-Business
-                </p>
-                <p class="Pregunta">Que rumbo a tomado mi carrera laboral y profesional?</p>
-                <p class="Respuesta">Tengo una amplia trayectoria en el área comercial y de gestión de cuentas claves de cliente en el sector de telecomunicaciones, financiero y catering.  
-                </p>
-                <p class="Pregunta">Que competencias y habilidades he desarrollado?</p>
-                <ul class="lista_Habilidades">
-                    <li class="item_Habilidades">Liderazgo en ventas y de equipos comerciales, estructuración de canales de ventas y estrategias comerciales.  Estructuración e implementación de nuevos negocios.</li>
-                    <li class="item_Habilidades">Experiencia en creación, mejoramiento y administración de productos y servicios comerciales, liderazgo de proyectos de sistemas de información.</li>      
-                    <li class="item_Habilidades">Desarrollo Web de aplicaciones orientadas a las necesidades de los negocios</li>
-                </ul>
+            <div class="cuadroPrincipalConoce1">
+                <img src="Imagenes/FotoNancy.png" alt="" class="img_Foto">
+                <div class="textoContainer">
+                    <h2 class="inicioTitulo1_Conoce">Nancy Jeanneth Escobar</h1>
+                    <p class="Pregunta">Quien soy?</p>
+                    <p class="Respuesta">Mujer orgullosamente colombiana nacida en Bogotá, madre de 2 hermosos hijos y excelente profesional.</p>
+                    <p class="Pregunta">Que estudie?</p>
+                    <p class="Respuesta">Ingeniería de Sistemas con Especialización de Sistemas de Información en la Organización y Master of Commerce with a major in e-Business
+                    </p>
+                    <p class="Pregunta">Que rumbo a tomado mi carrera laboral y profesional?</p>
+                    <p class="Respuesta">Tengo una amplia trayectoria en el área comercial y de gestión de cuentas claves de cliente en el sector de telecomunicaciones, financiero y catering.  
+                    </p>
+                    <p class="Pregunta">Que competencias y habilidades he desarrollado?</p>
+                    <ul><li>Liderazgo en ventas y de equipos comerciales, estructuración de canales de ventas y estrategias comerciales.  Estructuración e implementación de nuevos negocios.</li>
+                        <li>Experiencia en creación, mejoramiento y administración de productos y servicios comerciales, liderazgo de proyectos de sistemas de información.</li>      
+                        <li>Desarrollo Web de aplicaciones orientadas a las necesidades de los negocios</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -64,37 +73,37 @@
             <h2 class="ProyectosTitulo">Mis Proyectos</h1>
             <div class="Proyectos">
                 <div class="Proyecto_Item"> 
-                    <a href="Proyectos/Media Queries/index.html">
+                    <a href="Proyectos/Media Queries/index.html" target="_blank">
                         <h1>Media Query</h1> 
                         <img src="Imagenes/Proyecto 1 - Img - Media Query.png" alt="">
                     </a>
                 </div>
                 <div class="Proyecto_Item">
-                    <a href="Proyectos/Pagina Web/miprimerapagWEB.html">
+                    <a href="Proyectos/Pagina Web/miprimerapagWEB.html" target="_blank">
                         <h1>Primera Pagina Web</h1>
                         <img src="Imagenes/Proyecto 2 - Img - Primera Pagina Web.png" alt="">
                     </a>
                 </div>
                 <div class="Proyecto_Item">
-                    <a href="Proyectos/OtrosElementoswHTML/index.html">
+                    <a href="Proyectos/OtrosElementoswHTML/index.html" target="_blank">
                         <h1>Otros Elementos HTML</h1>
                         <img src="Imagenes/Proyecto 3 - Img.png" alt="">
                     </a>
                 </div>
                 <div class="Proyecto_Item"> 
-                    <a href="Proyectos/Tablas/index.html">
+                    <a href="Proyectos/Tablas/index.html" target="_blank">
                         <h1>Tablas</h1>
                         <img src="Imagenes/Proyecto 4 - Img - Tablas.png" alt="">
                     </a>
                 </div>
                 <div class="Proyecto_Item"> 
-                    <a href="Proyectos/Formularios/index.html">
+                    <a href="Proyectos/Formularios/index.html" target="_blank">
                         <h1>Formularios</h1>
                         <img src="Imagenes/Proyecto 5 - Img - Formularios.png" alt="">
                     </a>
                 </div>
                 <div class="Proyecto_Item">
-                    <a href="Proyectos/JSON/index.html">
+                    <a href="Proyectos/JSON/index.html" target="_blank">
                         <h1>Json Ejemplo</h1>
                         <img src="Imagenes/Proyecto 6 - Img - JSON.png" alt="">
                     </a>
@@ -106,10 +115,23 @@
     <!-- Pagina Contactame -->
     <section id="contactame">
         <div class="cuadroPrincipalContactame">
-            <h2 class="ProyectosTitulo">Contáctame</h1>
-            
+            <h2 class="contactoTitulo">Contáctame</h2>
+            <div class="contactoForm">
+                <form action>
+                    <div class="contactoFilaUno">
+                        <input type="text" id="name" name="nombre" class="contactoCamposUno" placeholder="Nombre Completo *" />
+                        <input type="text" id="email" name="email" class="contactoCamposUno" placeholder="Email *" />
+                    </div>
+                    <div class="fila">
+                        <textarea name="" id="" cols="100" rows="10" placeholder="Tu Mensaje..." class="contactoCamposDos"></textarea>
+                    </div>
+                    <input type="enviar" value="Enviar Mensaje" class="contactoEnviar">
+                </form>
+            </div>
         </div>
     </section>
+
+    <script src="app.js"></script>
 
 </body>
 </html>

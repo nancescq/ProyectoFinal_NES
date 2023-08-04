@@ -25,11 +25,8 @@
     z-index: 2;
 }
 
-#inicio .cuadroMenuInicio, li {
+#inicio .button {
     width: 100%;
-}
-
-#inicio a {
     border: none;
     background-color: transparent;
     color: white;
@@ -40,9 +37,6 @@
     
 }
 
-#inicio .contenido header .contenido-header .seleccionado {
-    color: #ff5080;
-}
 .cuadroSocialMedia{
     display: flex;
     flex-wrap: wrap;
@@ -114,14 +108,19 @@
 }
 
 .cuadroPrincipalConoce{
-    display: flex;
-    justify-content: center;
-    align-items:center;
     position: relative;
     margin-left: 0;
     margin-top: 0;
     height: 900px;
+
 }
+
+.cuadroPrincipalConoce1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
 .textoContainer{
     display: flex;
     flex-direction: column;
@@ -142,7 +141,7 @@
 .inicioTitulo1_Conoce{
     display: flex;
     position: relative;
-    margin-top: 60px;
+    margin-top: 90px;
     margin-right: 400px;
     font-size: 55px;
     font-family: Helvetica;
@@ -183,8 +182,9 @@
     color: rgb(49, 158, 194);
 }
 
-.lista_Habilidades{
+#conocesobremi ul{
     display: list-item;
+    list-style-position: inside;
     position: relative;
     margin-right: 400px;
     margin-bottom: 0px;
@@ -196,7 +196,7 @@
     color: rgb(49, 158, 194);
 }
 
-.item_Habilidades{
+#conocesobremi li{
     padding: 2px;
 }
 
@@ -272,6 +272,7 @@
 
 .cuadroPrincipalContactame{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items:center;
     position: relative;
@@ -279,4 +280,54 @@
     margin-top: 0;
     height: 900px;
 
+}
+
+.contactoTitulo{
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+.contactoForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactoCamposDos{
+
+}
+
+.contactoFilaUno {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contactame .contactoCamposUno,
+#contactame .contactoEnviar,
+#contactame .contactoCamposDos {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #919191;
+}
+
+#contactame .contactoCamposUno {
+    width: 48%;
+}
+
+.contactoEnviar{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.contactoEnviar:hover {
+    background-color: lightskyblue;
+    color: #fff;
 }
